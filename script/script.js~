@@ -1,0 +1,12 @@
+$(function(){
+
+	$('.single-item').slick({
+
+
+		dots: true,
+		arrows: false,
+		// fade: true ПЕРЕХОД НЕ БУДЕТ ПЛАВНЫМ
+
+	});
+
+});

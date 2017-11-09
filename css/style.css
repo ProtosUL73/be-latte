@@ -373,127 +373,134 @@ li {
     height: 423px;
 }
 .BG {
-    width: 100%;
-    height: 425px;
-    position: relative;
+  width: 100%;
+  height: 425px;
+  position: relative;
 }
-
 .Testimonial-bg {
-    width: 35%;
-    height: 425px;
-    position: absolute;
-    right: 0;
+  width: 35%;
+  height: 425px;
+  position: absolute;
+  right: 0;
 }
 .realisticshots-coffee-photo {
-    width: 100%;
-    height: 425px;
-    object-fit: contain;
-    position: absolute;
+  width: 100%;
+  height: 425px;
+  object-fit: contain;
+  position: absolute;
 }
-.Chris-Parker {
-    position: absolute;
-    top: 197px;
-    left: 171px;
-    width: 118px;
-    height: 17px;
-    font-family: PlayfairDisplay;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: center;
-    color: #f5d76e;
- }
 .layer {
-    width: 111px;
-    height: 50px;
-    font-family: Playfair Display;
-    font-size: 90px;
-    font-weight: bold;
-    line-height: 0.23;
-    text-align: left;
-    color: rgba(255, 255, 255, 0.03);
-    position: absolute;
-    top: 32px;
-    left: 30px;
-}
-.text {
-    width: 256px;
-    height: 75px;
-    font-family: Lato;
-    font-size: 16px;
-    line-height: 1.31;
-    text-align: center;
-    color: #ffffff;
-    position: absolute;
-    top: 234px;
-    left: 101px;
+  width: 111px;
+  height: 50px;
+  font-family: Playfair Display;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 0.23;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.03);
+  position: absolute;
+  top: 32px;
+  left: 30px;
 }
 .quotation-mark {
-    width: 77px;
-    height: 57px;
-    font-family: Playfair Display;
-    font-size: 200px;
-    font-weight: bold;
-    line-height: 0.11;
-    color: rgba(255, 255, 255, 0.03);
-    position: absolute;
-    right: 25px;
-    top: 400px;
+  width: 77px;
+  height: 57px;
+  font-family: Playfair Display;
+  font-size: 200px;
+  font-weight: bold;
+  line-height: 0.11;
+  color: rgba(255, 255, 255, 0.03);
+  position: absolute;
+  right: 25px;
+  top: 400px;
 }
-.Bruno-Bergher {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    background-color: #ececec;
-    border-radius: 50%;
+.single-item {
+  width: 350px;
+  height: 300px;
 }
-.photo-placeholder{
-    position: absolute;
-    top: 98px;
-    left: 187px;
+.slide {
+  width: 150px;
+  height: 450px;
 }
-.Ellipse {
-    width: 11px;
-    height: 11px;
-    background-color: #39312f;
-    border: solid 1px #ececec;
-    position: absolute;
-    left: 200px;
-    top: 350px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
+.photo-placeholder {
+  width: 84px;
+  height: 84px;
+  position: relative;
+  top: 98px;
+  left: 187px;
 }
-.Ellipse-1-copy {
-    width: 9px;
-    height: 9px;
-    background-color: #ececec;
-    border: solid 1px #ececec;
-    position: absolute;
-    left: 225px;
-    top: 350px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+.brendan-lim {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background-color: #ececec;
+  border-radius: 50%;
+} 
+.bruno-bergher {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background-color: #ececec;
+  border-radius: 50%;
 }
-.Ellipse-2-copy {
-    width: 9px;
-    height: 9px;
-    background-color: #ececec;
-    border: solid 1px #ececec;
-    position: absolute;
-    left: 250px;
-    top: 350px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+.name {
+  position: relative;
+  top: 113px;
+  left: 171px;
+  width: 130px;
+  height: 17px;
+  font-family: PlayfairDisplay;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  color: #f5d76e;
+}
+.text {
+  position: relative;
+  width: 256px;
+  height: 75px;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.31;
+  text-align: center;
+  color: #ffffff;
+  top: 133px;
+  left: 101px;
+}
+.slick-dots {
+  position: absolute;
+  text-align: center;
+  list-style: none;
+  width: 150px;
+  height: 150px;
+  top: 350px;
+  left: 160px;
+  border-radius: 50%;
+}
+.slick-dots li button {
+  width: 9px;
+  height: 9px;
+  border: solid 1px #ececec;
+  border-radius: 50%;
+}
+.slick-dots li button::before {
+  content: "";
+}
+.slick-dots li.slick-active button {
+  width: 11px;
+  height: 11px;
+  background-color: #ececec;
+  border: solid 1px #ececec;
+}
+.slick-dots li.slick-active button:before {
+  content: "";
 }
 iframe {
-    width: 65%;
-    height: 425px;
-    float: right;
+  width: 65%;
+  height: 425px;
+  float: right;
 }
-
 .Hours-bg {
     width: 35%;
     height: 425px;
