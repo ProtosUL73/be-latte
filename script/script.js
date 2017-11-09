@@ -2,7 +2,8 @@ $(function(){
 
 	$('.single-item').slick({
 		dots: true,
-		arrows: false
+		arrows: false,
+		draggable: false
 	});
 
 });

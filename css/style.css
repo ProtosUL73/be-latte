@@ -421,6 +421,7 @@ li {
 .slide {
   width: 150px;
   height: 450px;
+  outline: none;
 }
 .photo-placeholder {
   width: 84px;
