@@ -4,26 +4,28 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="script/script.js"></script>
         <title> Be-Latte </title>
     </head>
     <body>
-	    <header class="header-bg">
-	        <div class="Top-navigation-bg">
-		        <div class="button-header">    
-		            <div class="Home-About-us">
-		                <a href="https://www.yandex.ru" title="Home" class="text-style-1">Home</a>
-		                <a href="https://www.yandex.ru" title="About us" class="About-us">About us</a>
-		            </div>
-		            <a href="" title="Be-Latte"><img src="img/be-latte-logo.png" srcset="img/be-latte-logo@2x.png 2x, img/be-latte-logo@3x.pnf 3x" class="Be-latte---logo"></a>
-		            <div class="Menu-Blog-Contact">
-		                <a href="https://www.yandex.ru" title="Menu" class="Menu">Menu</a>
-		                <a href="https://www.yandex.ru" title="Blog" class="Blog">Blog</a>
-		                <a href="https://www.yandex.ru" title="Contact" class="Contact">Contact</a>
-		            </div>
+        <header class="header-bg">
+	          <div class="Top-navigation-bg">
+    		        <div class="button-header">
+    		            <div class="Home-About-us">
+    		                <a href="https://www.yandex.ru" title="Home" class="text-style-1">Home</a>
+    		                <a href="https://www.yandex.ru" title="About us" class="About-us">About us</a>
+    		            </div>
+    		            <a href="" title="Be-Latte"><img src="img/be-latte-logo.png" srcset="img/be-latte-logo@2x.png 2x, img/be-latte-logo@3x.pnf 3x" class="Be-latte---logo"></a>
+    		            <div class="Menu-Blog-Contact">
+    		                <a href="https://www.yandex.ru" title="Menu" class="Menu">Menu</a>
+    		                <a href="https://www.yandex.ru" title="Blog" class="Blog">Blog</a>
+    		                <a href="https://www.yandex.ru" title="Contact" class="Contact">Contact</a>
+    		            </div>
+    		        </div>
 		        </div>
-		    </div>
         </header>
-         <img src="img/coffee-shop.png" srcset="img/coffee-shop@2x.png 2x, img/coffee-shop@3x.png 3x" class="coffee-shop">
+        <img src="img/coffee-shop.png" srcset="img/coffee-shop@2x.png 2x, img/coffee-shop@3x.png 3x" class="coffee-shop">
         <div class="welcome-to">
             <!--<img src="img/coffee-shop.png" srcset="img/coffee-shop@2x.png 2x, img/coffee-shop@3x.png 3x" class="coffee-shop">-->
             <div class="Welcome-to-Be-Latte" id="Welcome-to-Be-Latte">
@@ -33,8 +35,8 @@
                 Enjoy of a fresh new approach to coffee. Proin gravida nibh vel velit. Auctor aliquet sollicitudin lorem quis.
             </div>
             <a class="Btn-bg" href="https://www.yandex.ru">SEE MENU</a>
-        </div> 
-        <div class="content"> 
+        </div>
+        <div class="content">
             <div class="block_coffee">
                 <h2 style="padding: 98px 0 32px 0">Coffee never tasted <u>so good!</u></h2>
                 <div class="morbi">
@@ -106,19 +108,45 @@
             </div>
             <img src="img/icon-coffee.png" srcset="img/icon-coffee@2x.png 2x, img/icon-coffee@3x.png 3x" class="icon-coffee" style="padding-top: 72px">
             <h2>TESTIMONIALS</h2>
-            <div class="BG">
-                <img src="img/realisticshots-coffee-photo.png" srcset="img/realisticshots-coffee-photo@2x.png 2x, img/realisticshots-coffee-photo@3x.png 3x" class="realisticshots-coffee-photo">
-                <div class="realisticshots-coffee-photo"></div>
-                <div class="Testimonial-bg">
-                    <div class="layer">.01</div>
-                    <div class="photo-placeholder">
-                        <img src="img/bruno-bergher.png" srcset="img/bruno-bergher@2x.png 2x, img/bruno-bergher@3x.png 3x" class="Bruno-Bergher">
+            <div class="bg">
+                <div class="viewport">
+                    <ul class="slidewrapper" data-current="0">
+                        <li class="slide">
+                            <div class="slide_content">
+                                <div class="layer">.01</div>
+                                <div class="photo-placeholder">
+                                    <img src="img/bruno-bergher.png" srcset="img/bruno-bergher@2x.png 2x, img/bruno-bergher@3x.png 3x" class="Bruno-Bergher">
+                                </div>
+                                <div class="Chris-Parker">Chris Parker</div>
+                                <div class="text">Nisi elit consequat ipsum, nec<br/> sagittis sem nibh id elit. Duis sed<br/> odio sit amet nibh vulputate cursus<br/> a sit amet mauris accumsan.</div>
+                            </div>
+                        </li>
+                        <li class="slide second">
+                            <div class="slide_content">
+                                <div class="layer">.02</div>
+                                <div class="photo-placeholder">
+                                    <img src="img/brendan-lim.png" srcset="img/brendan-lim@2x.png 2x, img/brendan-lim@3x.png 3x" class="brendann-lim">
+                                </div>
+                                <div class="brendan-lim">Brendan lim</div>
+                                <div class="text">More than anything <br/> in the world, I like beer,<br/> coffee is so-so</div>
+                            </div>
+                        </li>
+                        <li class="slide second">
+                            <div class="slide_content">
+                                <div class="layer">.03</div>
+                                <div class="photo-placeholder">
+                                    <img src="img/brendan-lim.png" srcset="img/brendan-lim@2x.png 2x, img/brendan-lim@3x.png 3x" class="brendann-lim">
+                                </div>
+                                <div class="brendan-lim">Kim Hy Li</div>
+                                <div class="text">Js very interesting system. <br/> But I do not drink coffee,<br/> only tea</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="button">
+                        <a href='javascipt: void(0)' class='but active'></a>
+                        <a href='javascipt: void(0)' class='but'></a>
+                        <a href='javascipt: void(0)' class='but'></a>
                     </div>
-                    <div class="Chris-Parker">Chris Parker</div>
-                    <div class="text">Nisi elit consequat ipsum, nec<br/> sagittis sem nibh id elit. Duis sed<br/> odio sit amet nibh vulputate cursus<br/> a sit amet mauris accumsan.</div>
-                    <a class="Ellipse" href="https://www.google.ru/"></a>
-                    <a class="Ellipse-1-copy" href="https://www.yandex.ru/"></a>
-                    <a class="Ellipse-2-copy" href="https://www.google.ru/"></a>
                     <div class="quotation-mark">”</div>
                 </div>
             </div>
@@ -145,8 +173,7 @@
                 <a href="https://www.instagram.com/?hl=ru" title="Instagramm.com" class="Instagram-icon"><img src="img/instagram-icon.png" srcset="img/instagram-icon@2x.png 2x, img/instagram-icon@3x.png 3x"></a>
             </div>
             <div class="Street-scroll">
-                <div class="St-Thomas-street-21st-Suite-110-Santa-Monica-California">St. Thomas street 21st, Suite 110, Santa Monica, California
-				</div>
+                <div class="St-Thomas-street-21st-Suite-110-Santa-Monica-California">St. Thomas street 21st, Suite 110, Santa Monica, California</div>
             </div>
 	    </footer>
     </body>
