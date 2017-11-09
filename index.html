@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
         <title> Be-Latte </title>
     </head>
     <body>
@@ -25,7 +26,6 @@
         </header>
          <img src="img/coffee-shop.png" srcset="img/coffee-shop@2x.png 2x, img/coffee-shop@3x.png 3x" class="coffee-shop">
         <div class="welcome-to">
-            <!--<img src="img/coffee-shop.png" srcset="img/coffee-shop@2x.png 2x, img/coffee-shop@3x.png 3x" class="coffee-shop">-->
             <div class="Welcome-to-Be-Latte" id="Welcome-to-Be-Latte">
                 Welcome to Be Latte
             </div>
@@ -108,18 +108,39 @@
             <h2>TESTIMONIALS</h2>
             <div class="BG">
                 <img src="img/realisticshots-coffee-photo.png" srcset="img/realisticshots-coffee-photo@2x.png 2x, img/realisticshots-coffee-photo@3x.png 3x" class="realisticshots-coffee-photo">
-                <div class="realisticshots-coffee-photo"></div>
                 <div class="Testimonial-bg">
-                    <div class="layer">.01</div>
-                    <div class="photo-placeholder">
-                        <img src="img/bruno-bergher.png" srcset="img/bruno-bergher@2x.png 2x, img/bruno-bergher@3x.png 3x" class="Bruno-Bergher">
-                    </div>
-                    <div class="Chris-Parker">Chris Parker</div>
-                    <div class="text">Nisi elit consequat ipsum, nec<br/> sagittis sem nibh id elit. Duis sed<br/> odio sit amet nibh vulputate cursus<br/> a sit amet mauris accumsan.</div>
-                    <a class="Ellipse" href="https://www.google.ru/"></a>
-                    <a class="Ellipse-1-copy" href="https://www.yandex.ru/"></a>
-                    <a class="Ellipse-2-copy" href="https://www.google.ru/"></a>
-                    <div class="quotation-mark">”</div>
+                    <div id="block-for-slider">
+                        <div id="viewport">
+                            <ul id="slidewrapper">
+                                <li class="slide">
+                                    <div class="layer">.01</div>
+                                    <img src="img/bruno-bergher.png" srcset="img/bruno-bergher@2x.png 2x, img/bruno-bergher@3x.png 3x" class="Bruno-Bergher">
+                                    <h3 style="color: #f5d76e; margin-left: 35%">Bruno Bergher</h3>
+                                    <h4 style="text-align: center; color: #ffffff">Nisi elit consequat ipsum, nec<br/> sagittis sem nibh id elit. Duis sed<br/> odio sit amet nibh vulputate cursus<br/> a sit amet mauris accumsan.</h4>
+                                    <div class="quotation-mark">”</div>
+                                </li>
+                                <li class="slide">
+                                    <div class="layer">.02</div>
+                                    <img src="img/brendan-lim.png" srcset="img/brendan-lim@2x.png 2x, img/brendan-lim@3x.png 3x" class="Brendan-Lim">
+                                    <h3 style="color: #f5d76e; margin-left: 35%">Brendan Lim</h3>
+                                    <h4 style="text-align: center; color: #ffffff">Nisi elit consequat ipsum, nec<br/> sagittis sem nibh id elit. Duis sed<br/> odio sit amet nibh vulputate cursus<br/> a sit amet mauris accumsan.</h4>
+                                    <div class="quotation-mark">”</div>
+                                </li>
+                                <li class="slide">
+                                    <div class="layer">.03</div>
+                                    <img src="img/bruno-bergher.png" srcset="img/bruno-bergher@2x.png 2x, img/bruno-bergher@3x.png 3x" class="Bruno-Bergher">
+                                    <h3 style="color: #f5d76e; margin-left: 35%">Chris Parker</h3>
+                                    <h4 style="text-align: center; color: #ffffff">Nisi elit consequat ipsum, nec<br/> sagittis sem nibh id elit. Duis sed<br/> odio sit amet nibh vulputate cursus<br/> a sit amet mauris accumsan.</h4>
+                                    <div class="quotation-mark">”</div>
+                                </li>
+                            </ul>
+                            <ul id="nav-btns">
+                                <li class="slide-nav-btn"></li>
+                                <li class="slide-nav-btn"></li>
+                                <li class="slide-nav-btn"></li>
+                            </ul>
+                        </div>
+                     </div>
                 </div>
             </div>
             <img src="img/icon-coffee.png" srcset="img/icon-coffee@2x.png 2x, img/icon-coffee@3x.png 3x" class="icon-coffee" style="padding-top: 81px">
@@ -149,5 +170,6 @@
 				</div>
             </div>
 	    </footer>
+        <script src="script/script.js"></script>
     </body>
 </html>
